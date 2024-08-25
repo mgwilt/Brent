@@ -5,6 +5,8 @@ channels:
 dependencies:
   - python=3.9
   - pip
+  - conda-forge::pydantic=2.8.*
+  - conda-forge::pydantic-settings=2.4.*
   - pip:
-    - llama-index
-    - llama-index-readers-github
+      - llama-index==0.11.*
+      - llama-index-readers-github==0.2.*
