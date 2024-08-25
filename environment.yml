@@ -7,3 +7,4 @@ dependencies:
   - pip
   - pip:
     - llama-index
+    - llama-index-readers-github
